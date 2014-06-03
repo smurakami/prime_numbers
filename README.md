@@ -48,3 +48,14 @@ gcc prime.c
 ```
 を実行しましょう。(Windowsは`./a.exe`ですね。)
 やっぱCは速い！
+
+## Swift
+
+まずはXcode6をインストールしましょう。
+インストールが完了したら、
+
+```
+/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift -i prime.swift
+```
+
+で実行できます。
