@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 primes = []
 num = 2
 while true
