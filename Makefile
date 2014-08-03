@@ -3,9 +3,6 @@ sources_all     = $(wildcard prime.*)
 sources_compile = $(filter $(addprefix %,$(compile)),$(sources_all))
 binaries        = $(patsubst prime.%,prime-%,$(sources_compile))
 
-debug:
-	: $(binaries)
-
 all: $(binaries)
 
 %-hs: %.hs
