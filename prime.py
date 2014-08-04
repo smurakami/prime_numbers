@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 primes = []
 num = 2
 while True:
