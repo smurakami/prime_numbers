@@ -59,3 +59,11 @@ gcc prime.c
 ```
 
 で実行できます。
+
+## Julia
+
+```
+julia prime.jl
+```
+
+と入力してください。
